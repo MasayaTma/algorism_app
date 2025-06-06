@@ -19,7 +19,7 @@
 ## 📦 セットアップ方法
 
 ```bash
-git clone https://github.com/MasayaTma/algorism-ai-trainer.git
+git clone https://github.com/MasayaTma/algorism_app.git
 cd algorism-ai-trainer
 python -m venv algorism
 source algorism/bin/activate  # Windowsなら algorism\Scripts\activate
