@@ -45,7 +45,7 @@ def generate_followup_prompt(user_problem: str, selected_method: str) -> dict:
         f"【選択された手法】\n"
         f"{selected_method}\n\n"
         "―――――――――――――――\n"
-        "この手法を実装する際の具体的な手順や注意点、擬似コードまたは例示的なコードスニペットを示してください。\n"
+        "この手法を実装する際の具体的な手順や注意点、擬似コードまたは例示的なコードスニペットを2000文字以内で示してください。\n"
         "また、よくあるつまずきポイントとその対策も合わせて説明してください。\n"
     )
     return {"role": "user", "content": content}
