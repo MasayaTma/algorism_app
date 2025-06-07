@@ -11,7 +11,7 @@ from prompts import system_message, generate_three_methods_prompt, generate_foll
 load_dotenv()
 
 # ページ設定
-st.set_page_config(page_title="アルゴリズム思考トレーニングAI", layout="wide")
+st.set_page_config(page_title="開発フォローAIbot", layout="wide")
 st.title("問題解決サポートAI bot")
 
 # ------------------------------------------------------------
